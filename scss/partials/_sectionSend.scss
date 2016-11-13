@@ -1,0 +1,61 @@
+.send {
+    max-width: $mainWidth;
+    min-height: 320px;
+    background-color: $backgroundColorDarker;
+
+    .content-width {
+        max-width: $contentWidth;
+        margin: 0 auto;
+        padding: 0 15px;
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+
+        .send-row {
+            padding: 0;
+
+            .send-title {
+                img {
+                    margin: 61px 9px 0 0;
+                }
+
+                h1 {
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    font-weight: 800;
+                    display: inline-block;
+                }
+            }
+
+            .send-description {
+                font-size: 14px;
+                margin-top: 21px;
+                line-height: 23px;
+            }
+
+            button {
+                height: 34px;
+                width: 97px;
+                background-color: $mainColor;
+                color: white;
+                font-size: 14px;
+                border: none;
+                border-radius: 15px;
+                outline: none;
+                margin-top: 33px;
+            }
+        }
+
+        .send-row:nth-of-type(2) {
+            padding-left: 34px;
+
+            img {
+                margin: 61px 14px 0 0;
+            }
+            @media (max-width: 767px) {
+                padding: 0;
+                margin-bottom: 61px;
+            }
+        }
+    }
+}

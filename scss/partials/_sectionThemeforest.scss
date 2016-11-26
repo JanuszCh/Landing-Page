@@ -11,12 +11,12 @@
         .themeforest-row {
             margin-top: 64px;
             padding: 0;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 text-align: center;
             }
 
             img {
-                @media (max-width: 767px) {
+                @media #{$mobileWidth} {
                     margin: 0 auto;
                 }
             }
@@ -50,7 +50,7 @@
 
         .themeforest-row:nth-of-type(2) {
             padding-left: 4px;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 padding: 0;
                 margin-bottom: 64px;
             }

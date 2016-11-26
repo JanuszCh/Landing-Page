@@ -16,7 +16,7 @@
         .col-sm-6:nth-of-type(1) {
             font-size: 13px;
             color: #b5b7b9;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 text-align: center;
             }
         }
@@ -27,7 +27,7 @@
             a:nth-of-type(2) {
                 margin: 0 14px;
             }
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 .social {
                     width: 81px;
                     margin: 0 auto 23px;

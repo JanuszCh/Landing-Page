@@ -11,12 +11,12 @@
         .templates-row {
             margin-top: 67px;
             padding: 0;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 text-align: center;
             }
 
             img {
-                @media (max-width: 767px) {
+                @media #{$mobileWidth} {
                     margin: 0 auto;
                 }
             }
@@ -30,7 +30,7 @@
 
             hr {
                 width: 263px;
-                @media (max-width: 767px) {
+                @media #{$mobileWidth} {
                     margin: 1em auto;
                 }
             }
@@ -56,7 +56,7 @@
 
         .templates-row:nth-of-type(2) {
             padding-left: 30px;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 padding: 0;
                 margin-bottom: 67px;
             }

@@ -11,27 +11,27 @@
         .modules-row {
             margin-top: 59px;
             padding: 0;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 text-align: center;
             }
         }
 
         img {
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 margin: 0 auto;
             }
         }
 
         .modules-row:nth-of-type(2) {
             padding-left: 10px;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 padding: 0;
             }
         }
 
         .modules-row:nth-of-type(3) {
             padding-left: 16px;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 padding: 0;
                 margin-bottom: 59px;
             }
@@ -46,7 +46,7 @@
 
         hr {
             width: 180px;
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 margin: 1em auto;
             }
         }

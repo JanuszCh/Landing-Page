@@ -35,7 +35,7 @@
             .col-sm-3:nth-of-type(1) {
                 font-family: 'Pacifico', serif;
                 text-align: left;
-                @media (max-width: 767px) {
+                @media #{$mobileWidth} {
                     text-align: center;
                 }
             }
@@ -43,7 +43,7 @@
             .col-sm-3:nth-of-type(4) {
                 font-weight: 800;
                 text-align: right;
-                @media (max-width: 767px) {
+                @media #{$mobileWidth} {
                     text-align: center;
                     margin-bottom: 50px;
                 }

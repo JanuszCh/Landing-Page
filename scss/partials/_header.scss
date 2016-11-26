@@ -4,7 +4,7 @@ body {
     header {
         .container {
             max-width: $mainWidth;
-            background-image: url('images/Layer 7.png');
+            background-image: url('images/Layer7.png');
             background-size: cover;
             background-color: #2E8B57;
             padding-top: 47px;
@@ -35,7 +35,7 @@ body {
                 .col-sm-3 {
                     max-width: 15%;
                     padding: 0;
-                    @media (max-width: 767px) {
+                    @media #{$mobileWidth} {
                         margin: 5px auto;
                         max-width: none;
                     }
@@ -43,7 +43,7 @@ body {
 
                 .col-sm-3:nth-of-type(1) {
                     margin-left: 116px;
-                    @media (max-width: 767px) {
+                    @media #{$mobileWidth} {
                         margin-left: 0;
                     }
                 }

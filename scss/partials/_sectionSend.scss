@@ -7,7 +7,7 @@
         max-width: $contentWidth;
         margin: 0 auto;
         padding: 0 15px;
-        @media (max-width: 767px) {
+        @media #{$mobileWidth} {
             text-align: center;
         }
 
@@ -52,7 +52,7 @@
             img {
                 margin: 61px 14px 0 0;
             }
-            @media (max-width: 767px) {
+            @media #{$mobileWidth} {
                 padding: 0;
                 margin-bottom: 61px;
             }

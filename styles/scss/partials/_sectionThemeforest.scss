@@ -1,0 +1,56 @@
+.themeforest-container {
+    @extend %container;
+    min-height: 331px;
+    background-color: $backgroundColorLighter;
+}
+
+.content-width {
+    @extend %content-width;
+    padding: 0 15px;
+}
+
+.themeforest-row {
+    margin-top: 64px;
+    padding: 0;
+    @media #{$mobileWidth} {
+        text-align: center;
+    }
+
+    .themeforest-img {
+        @media #{$mobileWidth} {
+            margin: 0 auto;
+        }
+    }
+
+    .themeforest-title {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .themeforest-description {
+        font-size: 14px;
+        margin-top: 29px;
+        line-height: 23px;
+    }
+
+    .themeforest-button {
+        width: 97px;
+        height: 34px;
+        background-color: $grayButtonColor;
+        border: none;
+        border-radius: 15px;
+        margin-top: 28px;
+        color: white;
+        font-size: 14px;
+        outline: none;
+    }
+}
+
+.themeforest-row:nth-of-type(2) {
+    padding-left: 4px;
+    @media #{$mobileWidth} {
+        padding: 0;
+        margin-bottom: 64px;
+    }
+}

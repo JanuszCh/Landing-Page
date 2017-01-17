@@ -1,0 +1,10 @@
+%container {
+    max-width: $mainWidth;
+    font-family: $mainFont;
+    margin: 0 auto;
+}
+
+%content-width {
+    max-width: $contentWidth;
+    margin: 0 auto;
+}

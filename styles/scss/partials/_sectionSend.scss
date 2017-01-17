@@ -1,0 +1,60 @@
+.send-container {
+    @extend %container;
+    min-height: 320px;
+    background-color: $backgroundColorDarker;
+}
+
+.content-width {
+    @extend %content-width;
+    padding: 0 15px;
+    @media #{$mobileWidth} {
+        text-align: center;
+    }
+}
+
+.send-row {
+    padding: 0;
+
+    .send-title-container {
+        .send-icon {
+            margin: 61px 9px 0 0;
+        }
+
+        .send-title {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 800;
+            display: inline-block;
+        }
+    }
+
+    .send-description {
+        font-size: 14px;
+        margin-top: 21px;
+        line-height: 23px;
+    }
+
+    .send-button {
+        height: 34px;
+        width: 97px;
+        background-color: $mainColor;
+        color: white;
+        font-size: 14px;
+        border: none;
+        border-radius: 15px;
+        outline: none;
+        margin-top: 33px;
+    }
+}
+
+.send-row:nth-of-type(2) {
+    padding-left: 34px;
+
+    .send-icon {
+        margin: 61px 14px 0 0;
+    }
+    @media #{$mobileWidth} {
+        padding: 0;
+        margin-bottom: 61px;
+    }
+}

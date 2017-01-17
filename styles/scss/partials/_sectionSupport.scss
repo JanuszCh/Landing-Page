@@ -1,0 +1,44 @@
+.support-container {
+    @extend %container;
+    min-height: 328px;
+    background-color: $backgroundColorDarker;
+}
+
+.content-width {
+    @extend %content-width;
+    padding: 0 15px;
+    @media #{$mobileWidth} {
+        text-align: center;
+    }
+}
+
+.support-icon {
+    margin: 59px 11px 0 2px;
+    position: relative;
+    top: 4px;
+}
+
+.support-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.support-description {
+    font-size: 14px;
+    margin: 23px 0 0 3px;
+    line-height: 23px;
+}
+
+.support-button {
+    width: 97px;
+    height: 34px;
+    background-color: $grayButtonColor;
+    border: none;
+    border-radius: 15px;
+    margin-top: 31px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
